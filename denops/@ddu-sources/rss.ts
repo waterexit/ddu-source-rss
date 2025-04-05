@@ -4,10 +4,8 @@ import {
     type SourceOptions,
 } from "jsr:@shougo/ddu-vim@~6.1.0/types";
 import { BaseSource } from "jsr:@shougo/ddu-vim@~6.1.0/source";
-
-import { type ActionData } from "../@ddu-kinds/page.ts";
+import { type ActionData } from "jsr:@water1120/ddu-kind-page";
 import { getItem } from "./rss/convertRssToItem.ts"
-
 import type { Denops } from "jsr:@denops/core@~7.0.0";
 
 export type Params = {

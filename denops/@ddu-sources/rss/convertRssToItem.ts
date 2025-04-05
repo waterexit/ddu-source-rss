@@ -4,7 +4,7 @@ import {
     FeedEntry,
     parseFeed,
 } from "https://deno.land/x/rss@1.1.2/mod.ts";
-import { type ActionData } from "../../@ddu-kinds/page.ts";
+import { type ActionData } from "jsr:@water1120/ddu-kind-page";
 import { type Params } from "../rss.ts";
 
 const getFeed = (urls: string[]): Promise<Feed[]> => {
